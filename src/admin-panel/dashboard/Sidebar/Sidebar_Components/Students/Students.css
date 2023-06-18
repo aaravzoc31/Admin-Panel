@@ -1,0 +1,8 @@
+.student-header {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.add-new-btn {
+  margin-left: auto;
+  margin-right: 10px;
+}

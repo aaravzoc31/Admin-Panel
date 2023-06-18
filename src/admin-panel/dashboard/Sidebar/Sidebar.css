@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #cdc6c6;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-and-content {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 200px;
+}
+.sidebar .ant-menu-item:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: grey; /* border colour*/
+}
+
+.sidebar .ant-menu-item:last-child:after {
+  display: none; /* Hides the border after the last menu item */
+}
