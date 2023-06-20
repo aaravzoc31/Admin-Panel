@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aaravzoc31.github.io/SMS-ADMIN-PANEL/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@ant-design/icons": "^5.1.3",
